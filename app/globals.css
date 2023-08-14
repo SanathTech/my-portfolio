@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .button {
+    @apply border-red-500 border-[1.5px] px-6 py-4 rounded-md hover:bg-white hover:bg-opacity-5;
+  }
+  .button-code {
+    @apply bg-transparent border-none text-red-500;
+  }
+}
+
 code {
   background-color: #ffffff12;
   border-color: #f7faff1f;

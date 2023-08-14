@@ -2,13 +2,13 @@ import React from "react";
 
 function About() {
   return (
-    <div className="flex justify-center py-28">
-      <div className="flex w-full max-w-[1600px] px-[150px]">
+    <div className="flex justify-center pt-28 lg:py-28">
+      <div className="flex w-full max-w-[1600px] px-5 sm:px-20 lg:px-[150px]">
         <div className="flex flex-col max-w-5xl mx-auto w-[1000px]">
           <div className="text-3xl font-semibold mb-3 opacity-90">About Me</div>
-          <div className="flex">
-            <div className="space-y-5">
-              <div className="font-semibold mb-5 text-[#ffdc64]">
+          <div className="flex flex-col md:flex-row">
+            <div className="space-y-5 text-justify lg:text-start mb-10 lg:mb-0">
+              <div className="font-semibold mb-5 text-red-500">
                 A Software Engineer based in Melbourne, Australia
               </div>
               <p className="opacity-70">
@@ -42,7 +42,7 @@ function About() {
               <p className="opacity-70">
                 {"Here are a few technologies I've been working with recently:"}
               </p>
-              <div className="flex gap-20">
+              <div className="flex gap-10 lg:gap-20">
                 <ul className="list-disc ml-5 space-y-2 marker:text-red-500">
                   <li>
                     <code className="opacity-70">React</code>
@@ -67,7 +67,7 @@ function About() {
                 </ul>
               </div>
             </div>
-            <div className="max-w-xs ml-16">
+            <div className="max-w-md md:ml-8 lg:ml-16 mx-auto">
               <img className="rounded-md" src="Profile.jpg" alt="" />
             </div>
           </div>

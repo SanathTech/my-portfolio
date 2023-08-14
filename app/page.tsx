@@ -1,6 +1,7 @@
 import About from "@/components/About";
 import Contact from "@/components/Contact";
 import Experience from "@/components/Experience";
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Navbar from "@/components/Navbar";
 import Projects from "@/components/Projects";
@@ -10,11 +11,11 @@ export default function Home() {
   return (
     <main className="relative bg-[#242424] text-white">
       {/* Navbar */}
-      <div className="absolute w-full">
+      <div className="sticky top-0 w-full z-10">
         <Navbar />
       </div>
       {/* Header */}
-      <div>
+      <div className="relative -top-[90.67px]">
         <Header />
       </div>
       {/* About */}
@@ -33,7 +34,10 @@ export default function Home() {
       <div id="contact">
         <Contact />
       </div>
-      {/* Resume */}
+      {/* Footer */}
+      <div>
+        <Footer />
+      </div>
     </main>
   );
 }
