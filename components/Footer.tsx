@@ -1,5 +1,6 @@
 import React from "react";
 import { BsLinkedin, BsGithub, BsYoutube } from "react-icons/bs";
+import { FiGithub, FiLinkedin, FiYoutube } from "react-icons/fi";
 
 function Footer() {
   return (
@@ -13,26 +14,29 @@ function Footer() {
               target="_blank"
               className="hover:text-red-500"
             >
-              <BsLinkedin size="23px" />
+              <FiLinkedin size="25px" />
             </a>
             <a
               href="https://github.com/SanathTech"
               target="_blank"
               className="hover:text-red-500"
             >
-              <BsGithub size="25px" />
+              <FiGithub size="25px" />
             </a>
             <a
               href="https://www.youtube.com/@SanathTech"
               target="_blank"
               className="hover:text-red-500"
             >
-              <BsYoutube size="25px" />
+              <FiYoutube size="25px" />
             </a>
           </div>
           {/* Name */}
           <code className="text-sm bg-transparent border-none text-center">
-            Built by Sanath Punchibandage using Next.js and Tailwind CSS
+            Built by Sanath Punchibandage
+          </code>
+          <code className="text-sm bg-transparent border-none text-center">
+            Powered by Next.js
           </code>
         </div>
       </div>

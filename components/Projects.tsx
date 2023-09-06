@@ -10,6 +10,27 @@ function Projects() {
           </div>
           <div className="space-y-12">
             <Project
+              title="AI Companion"
+              description="An AI chat site, where you can create and talk to virtual characters."
+              stack={[
+                "Next.js",
+                "Typescript",
+                "Tailwind CSS",
+                "Open AI",
+                "Langchain",
+                "Replicate",
+                "Prisma",
+                "Upstash",
+                "Redis",
+                "Clerk",
+                "shadcn/ui",
+                "Stripe",
+              ]}
+              github="ai-companion"
+              website="ai-companion"
+              image="AiCompanion.png"
+            />
+            <Project
               title="LeetCode Clone"
               description="A platform to help you improve your programming skills and prepare for technical interviews by solving coding problems."
               stack={[
@@ -58,14 +79,6 @@ function Projects() {
               github="airbnb-clone"
               website="fakebnb"
               image="Airbnb2.png"
-            />
-            <Project
-              title="Ebay Clone"
-              description="An ecommerce marketplace where you can buy, sell and auction items."
-              stack={["Next.js", "Tailwind CSS", "Firebase"]}
-              github="ebay-clone"
-              website="fakebay"
-              image="Ebay.png"
             />
           </div>
         </div>

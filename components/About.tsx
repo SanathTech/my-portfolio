@@ -13,7 +13,7 @@ function About() {
               </div>
               <p className="opacity-70">
                 {
-                  "Hi there! My name is Sanath and I love building websites from scratch (including this one!). Growing up, I've always had an interest for computer programming and mathematics. However my passion for web development really started in 2021 when I got a job as a System's Engineer, and was tasked with building a web application for a client using React JS. At the time, I had never even heard of this framework - but as I learnt how to use it I quickly fell in love."
+                  "Hi there! My name is Sanath and I love building websites from scratch (including this one!). Growing up, I've always had an interest for computer programming and mathematics. However my passion for web development really started in 2021 when I got a job as a System's Engineer, and was tasked with building a web application for a client using React JS. At the time, I had never even heard of this library - but as I learnt how to use it I quickly fell in love."
                 }
               </p>
               <p className="text-[#BEBEBE]">
@@ -21,7 +21,7 @@ function About() {
                   "Since then, I've gone on to build numerous web apps, from the classic 'To-Do List', to clone builds of popular services from "
                 }
                 <a
-                  className="text-red-500 font-semibold"
+                  className="text-red-500 font-semibold hover:underline"
                   href="https://fakeazon.sanathtech.com/"
                   target="_blank"
                 >
@@ -29,7 +29,7 @@ function About() {
                 </a>
                 {" to "}
                 <a
-                  className="text-red-500 font-semibold"
+                  className="text-red-500 font-semibold hover:underline"
                   href="https://fakegpt.sanathtech.com/"
                   target="_blank"
                 >
